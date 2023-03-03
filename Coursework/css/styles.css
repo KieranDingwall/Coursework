@@ -1,0 +1,163 @@
+body{
+    background-color : rgb(124, 121, 121);
+}
+
+header{
+    background-color : rgb(152, 240, 240);
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    padding: 1px;
+}
+
+#logo{
+    width : 100px;
+    height : 100px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+h1{
+    color:black;
+    font-family:Arial;
+    font-size:40px;
+    
+}
+
+#mainheader{
+    
+}
+
+h2{
+    color:black;
+    font-family:Arial;
+}
+
+h3{
+    color:black;
+    font-family:Arial;
+    font-size:24px;
+}
+
+h4{
+    color:black;
+    font-family:Arial;
+}
+
+h5{
+    color:black;
+    font-family:Arial;
+}
+
+h6{
+    color:black;
+    font-family:Arial;
+}
+
+p{
+    color:black;
+    font-family:Arial;
+    font-size:12px;
+}
+
+main{
+    background-color : rgb(152, 240, 240);
+    border-radius : 10px; 
+}
+
+aside{
+    background-color : rgb(152, 240, 240);
+    border-radius : 10px;
+}
+
+footer{
+    background-color : rgb(152, 240, 240);
+    border-radius : 10px;
+    float:left;
+    width:100%;
+}
+
+.News{
+    background-color:white;
+    padding:5px;
+    border: solid black;
+}
+
+.News2{
+    background-color:lightgrey;
+    padding:5px;
+    border: solid black;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+nav li{
+    border:2px solid white;
+    background-color:darkgrey;
+    list-style-type:none;
+    float: left;
+    width: 12%;
+    padding: 16px;
+    
+}
+
+nav li a{
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    font-family:arial;
+    
+}
+nav li:hover{
+    background-color: black;
+}
+
+li:hover{
+    background-color:rgb(159, 159, 236);
+}
+
+.active{
+    background-color:gold;
+}
+
+table{
+    font-family:arial;
+    border-collapse:collapse;
+}
+
+table td, table th{
+    border: 2px solid #F0F0F0;
+}
+
+table tr:nth-child(even){
+    background-color:lightgrey;
+}
+
+table tr:nth-child(odd){
+    background-color:darkgrey;
+}
+
+table tr:hover{
+    background-color:gold;
+}
+
+table th{
+    color:white;
+    background-color:rgb(159, 159, 236);
+    border: solid
+}
+
+
+.left-col{
+    float:left;
+    width:64%;
+}
+
+.right-col{
+    float:right;
+    width:30%;
+}
