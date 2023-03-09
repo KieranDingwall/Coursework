@@ -1,31 +1,21 @@
 body{
-    background-color : rgb(124, 121, 121);
+    background-color : rgb(252, 6, 6);
 }
 
 header{
-    background-color : rgb(152, 240, 240);
+    background-color : rgb(146, 14, 235);
     border-top-left-radius : 10px;
     border-top-right-radius : 10px;
-    padding: 1px;
-}
-
-#logo{
-    width : 100px;
-    height : 100px;
-    float: left;
-    margin-right: 10px;
-    
+    padding : 5%;
+    margin : 5%;
+    border : 3px;
 }
 
 h1{
     color:black;
     font-family:Arial;
     font-size:40px;
-    
-}
-
-#mainheader{
-    
+    text-align:center;
 }
 
 h2{
@@ -61,72 +51,48 @@ p{
 }
 
 main{
-    background-color : rgb(152, 240, 240);
+    background-color : rgb(211, 23, 228);
     border-radius : 10px; 
 }
 
 aside{
-    background-color : rgb(152, 240, 240);
+    background-color : rgb(211, 23, 228);
     border-radius : 10px;
 }
 
 footer{
-    background-color : rgb(152, 240, 240);
+    background-color : rgb(211, 23, 228);
     border-radius : 10px;
-    float:left;
-    width:100%;
-}
-
-.News{
-    background-color:white;
-    padding:5px;
-    border: solid black;
-}
-
-.News2{
-    background-color:lightgrey;
-    padding:5px;
-    border: solid black;
-}
-
-nav ul{
-    margin:0;
-    padding:0;
-    overflow:hidden;
 }
 
 nav li{
     border:2px solid white;
-    background-color:darkgrey;
+    background-color:lightgrey;
     list-style-type:none;
-    float: left;
-    width: 12%;
-    padding: 16px;
     
 }
 
 nav li a{
-    color:white;
+    color:black;
     text-align:center;
     text-decoration:none;
     font-family:arial;
     
 }
-nav li:hover{
-    background-color: black;
-}
 
 li:hover{
-    background-color:rgb(159, 159, 236);
+    background-color:rgb(211, 23, 228);
 }
 
 .active{
-    background-color:gold;
+    background-color:blue;
 }
 
 table{
     font-family:arial;
-    border-collapse:collapse;
+    /*border-collapse:collapse;*/
+    border : 20px;
+    
 }
 
 table td, table th{
@@ -142,22 +108,13 @@ table tr:nth-child(odd){
 }
 
 table tr:hover{
-    background-color:gold;
+    background-color:blue;
 }
 
 table th{
     color:white;
     background-color:rgb(159, 159, 236);
-    border: solid
+    border: 3px solid;
 }
 
 
-.left-col{
-    float:left;
-    width:64%;
-}
-
-.right-col{
-    float:right;
-    width:30%;
-}
