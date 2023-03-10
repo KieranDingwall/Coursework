@@ -10,10 +10,12 @@ header{
 }
 
 #logo{
-    width : 100px;
-    height : 100px;
+    width : 65px;
+    height : 65px;
     float: left;
     margin-right: 10px;
+    margin-bottom: -1px;
+    
     
 }
 
@@ -62,12 +64,14 @@ p{
 
 main{
     background-color : rgb(152, 240, 240);
-    border-radius : 10px; 
+    border-radius : 10px;
+    margin: 2px;
 }
 
 aside{
     background-color : rgb(152, 240, 240);
     border-radius : 10px;
+    margin: 2px;
 }
 
 footer{
@@ -75,6 +79,7 @@ footer{
     border-radius : 10px;
     float:left;
     width:100%;
+    margin: 2px;
 }
 
 .News{
@@ -161,3 +166,40 @@ table th{
     float:right;
     width:30%;
 }
+
+.d-block{
+    height: 500px;
+    width: 700px;
+    margin-right: 60%;
+    margin-left: 20%;    
+}
+
+.carousel-caption d-none d-md-block + p{
+    background-color: white;
+    color: white;
+}
+
+
+.carousel-control-next{
+    background-color:black;
+    margin-right: 9%;
+     
+}
+.carousel-control-prev{
+    background-color:black;
+    margin-left: 7%;
+}
+
+.carousel-control-next:hover{
+    background-color:black;
+    
+     
+}
+.carousel-control-prev:hover{
+    background-color:black;
+    
+}
+
+
+
+
