@@ -10,11 +10,12 @@ header{
 }
 
 #logo{
-    width : 65px;
+    width : 85px;
     height : 65px;
     float: left;
     margin-right: 10px;
-    margin-bottom: -1px;
+    margin-bottom: 10px;
+    padding: 1px;
     
     
 }
@@ -26,7 +27,11 @@ h1{
     
 }
 
-#mainheader{
+#loginform{
+    float: right;
+    font-size: 16px;
+    background-color:rgb(152, 240, 240);
+    padding:3px
     
 }
 
@@ -92,6 +97,10 @@ footer{
     background-color:lightgrey;
     padding:5px;
     border: solid black;
+}
+
+nav{
+    margin-top: 20px;
 }
 
 nav ul{
@@ -168,10 +177,11 @@ table th{
 }
 
 .d-block{
-    height: 500px;
-    width: 700px;
+    max-height: 500px;
+    max-width: 700px;
     margin-right: 60%;
-    margin-left: 20%;    
+    margin-left: 20%;
+    float: left
 }
 
 .carousel-caption d-none d-md-block + p{
@@ -200,6 +210,40 @@ table th{
     
 }
 
+.form{
+  padding: 2px  
+}
 
+form{
+    padding: 5px;
+    background-color:white
+}
+
+legend{
+    font-family: arial;
+    
+}
+
+input{
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-family: Arial;
+    padding:5px;
+    margin:5px;
+}
+
+header-input{
+    float: right;
+    margin:10px;
+    
+}
+
+header-button{
+    
+    
+}
 
 

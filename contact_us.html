@@ -2,6 +2,7 @@
     <head>
         <title> The Unoffical RGU Trainers Society </title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src=Scripts/script.js></script>
         
     </head>
 
@@ -18,8 +19,12 @@
             </ul>
 
         </nav>
-        <main> 
+        <main>
+            
+                
+            
         <form>
+            <div id="form">
             <fieldset>
                 <legend>Contact Us Using The Form Below</legend>
                 <label for="name">Name: </label>
@@ -35,14 +40,25 @@
                 <input type="text" name="comments" value=""/> <br/>
                 <label for="files"> Select A File</label>
                 <input type="file" name="files" value=""/> <br/>
+                <button type="button" 
+                    onclick=send_form(id)>Submit</button>
+                
+            </div>
+                 
+                
 
             </fieldset>
+            <div id="form_outcome"> 
+                <p></p>
+            </div>
         </main>
         <aside> </aside>
         <footer>
 
             <p>Copyright Kieran Dingwall</p>
         </footer>
+
+
     </body>
 
 </html>
