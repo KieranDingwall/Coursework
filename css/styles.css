@@ -189,14 +189,17 @@ table th{
     margin-right: 60%;
     margin-left: 20%;
     
+    
 }
 
 #carouselExample{
     width: 600px;
     height: 500px;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 60%;
+    /*margin-left: 20%;
+    margin-right: 60%;*/
+    float: left;
+    
     
     
 
