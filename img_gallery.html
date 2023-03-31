@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <header> <img src="images/TrainerLogo.png" alt="logo" id="logo"><h1 id = "mainheader">The Trainer Society </h1></header>
+        <header> <img src="images/TrainerLogo.png" alt="logo" id="logo"><h1 id = "mainheader">The Trainers Society </h1></header>
         <!-- Nav bar -->
         <nav>
             <ul>
@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row">
                   <div class="col-sm">
-                    <img src="images/gazelles.webp" alt="Gazelles" class="galleryimg">
+                    <img src="images/gazelles.webp" onmouseover = "this.highlight()" alt="Gazelles" class="galleryimg">
                   </div>
                   <div class="col-sm">
                     <img src="images/NikeWaffle1.webp" alt="Nike Waffle" class="galleryimg">
@@ -58,6 +58,17 @@
                           <img src="images/airmax97.webp" alt="Ultraboost" class="galleryimg">
                         </div>
               </div>
+              <script>
+              
+              function highlight() {
+                document.getElementById(this).style="border: solid blue 2px;"
+              }
+
+              function delight(id) {
+                document.getElementById(id).style="border: none;"
+              }
+              
+              </script>
                 
         
 

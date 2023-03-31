@@ -93,12 +93,24 @@ footer{
     background-color:white;
     padding:5px;
     border: solid black;
+    float: right;
+    width: 100%;
+
 }
 
 .News2{
     background-color:lightgrey;
     padding:5px;
     border: solid black;
+    float: right;
+    width: 100%;
+}
+
+.NewsImg{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
 }
 
 /* Nav Bar and Controls */
