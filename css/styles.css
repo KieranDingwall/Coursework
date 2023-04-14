@@ -194,6 +194,12 @@ table th{
     width:30%;
 }
 
+/* Twitter Integraded */
+
+#twitter-Timeline{
+    margin-right: 5px
+}
+
 /* Image Carousel */
 .d-block{
     height: 500px;
@@ -246,11 +252,13 @@ table th{
 
 form{
     padding: 5px;
-    background-color:white
+    background-color:rgb(152, 240, 240);
 }
 
 legend{
     font-family: arial;
+    border-radius: 0%;
+    border-color: rgb(152, 240, 240);
     
 }
 
@@ -269,6 +277,11 @@ header-input{
     float: right;
     margin:10px;
     
+}
+
+fieldset{
+    background-color: rgb(152, 240, 240);
+    border-radius: 0%;
 }
 
 
