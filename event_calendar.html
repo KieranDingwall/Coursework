@@ -151,7 +151,39 @@
             </tr>
         </table>
 
+        <form name = "event">
+            <div id="form">
+            <fieldset>
+                <legend>Suggest An Event</legend>
+                <label for="eventname">Event Name: </label>
+                <input type="text" name="event_title" value=""/> <br/>
+                <label for="date">Date </label>
+                <input type="date" name="event_date" value=""/> <br/>
+                <button type="button" onclick=submit_event(id)>Submit</button>
+                
+                
+            </div>
+                 
+                
 
+            </fieldset>
+
+            <script>
+                function submit_event() {
+                    var title = document.forms["event"]["event_title"].value;
+                    var date = document.forms["event"]["event_date"].value;
+                    if (title == "") {
+                        alert("An event must have a title!");
+                    } else {
+                        if (date.length == 0) {
+                            alert("An event must have a date!");
+                        } else {
+                            alert("Event submitted! The society will contact you soon!");
+                        }
+                    }
+                }
+                </script>
+                
         </main>
         <aside> </aside>
         <footer>
