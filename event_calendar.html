@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <!-- Title for page and stylesheet links-->
         <title> The Unoffical RGU Trainer Society </title>
@@ -19,11 +19,12 @@
             <li class="active"><a href="event_calendar.html">Events</a> </li>
             <li><a href="img_gallery.html">Images</a> </li>
             <li><a href="shop.html">Shop</a> </li>
-            <li><a href="music.html">Music</a> </li>
+            <li><a href="newreleases.html">New Releases</a> </li>
             </ul>
 
         </nav>
         <main> 
+            <h3> Events </h3>
         <!-- Events calendar -->
         <table>
             <tr>
@@ -36,7 +37,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Welcome Drinks <br/> In-Person @ Aberdeen City</td>
+                <td>Welcome Drinks <br> In-Person @ Aberdeen City</td>
                 <td></td>
             </tr>
             <tr>
@@ -44,14 +45,14 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Trainer Roadtrip <br/> In-Person @ Livingston Designer Outlets</td>
+                <td>Trainer Roadtrip <br> In-Person @ Livingston Designer Outlets</td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
                 <th>W3</th>
-                <td>Re-Selling For Beginners <br/> Online @ Zoom </td>
+                <td>Re-Selling For Beginners <br> Online @ Zoom </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -66,13 +67,13 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Pub Crawl <br/> In-Person @ Aberdeen City</td>
+                <td>Pub Crawl <br> In-Person @ Aberdeen City</td>
                 <td></td>
             </tr>
             <tr>
                 <th>W5</th>
                 <td></td>
-                <td>Trainer Trading <br/> In-Person @ RGU Union</td>
+                <td>Trainer Trading <br> In-Person @ RGU Union</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -82,7 +83,7 @@
             <tr>
                 <th>W6</th>
                 <td></td>
-                <td>Debate - Best Trainer Of 2022 <br/> Online @ Zoom </td>
+                <td>Debate - Best Trainer Of 2022 <br> Online @ Zoom </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -93,7 +94,7 @@
                 <th>W7</th>
                 <td></td>
                 <td></td>
-                <td>The Price Is Right - Trainer Edition <br/> In-Person @ RGU Union</td>
+                <td>The Price Is Right - Trainer Edition <br> In-Person @ RGU Union</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -106,7 +107,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>The RTS Unoffical Trainer Awards <br/> In-Person @ RGU Union</td>
+                <td>The RTS Unoffical Trainer Awards <br> In-Person @ RGU Union</td>
                 <td></td>
             </tr>
             <tr>
@@ -115,7 +116,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Guess The Shoe Game <br/> In-Person @ RGU Union </td>
+                <td>Guess The Shoe Game <br> In-Person @ RGU Union </td>
                 <td></td>
                 <td></td>
             </tr>
@@ -125,7 +126,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Trainer Knockout Tournament <br/> Online @ Zoom </td>
+                <td>Trainer Knockout Tournament <br> Online @ Zoom </td>
                 <td></td>
                 <td></td>
             </tr>
@@ -134,7 +135,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Trainer Showoff <br/> In-Person @ RGU Union</td>
+                <td>Trainer Showoff <br> In-Person @ RGU Union</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -144,30 +145,32 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Trainer Shopping <br/> In-Person @ Aberdeen City </td>
+                <td>Trainer Shopping <br> In-Person @ Aberdeen City </td>
                 <td></td>
-                <td>Farewell Drinks<br/> In-Person @ Aberdeen City</td>
+                <td>Farewell Drinks<br> In-Person @ Aberdeen City</td>
                 <td></td>
             </tr>
         </table>
-
+        <!--Submit Event Form-->
         <form name = "event">
             <div id="form">
             <fieldset>
                 <legend>Suggest An Event</legend>
                 <label for="eventname">Event Name: </label>
-                <input type="text" name="event_title" value=""/> <br/>
+                <input type="text" name="event_title" value="" id="eventname"> <br>
                 <label for="date">Date </label>
-                <input type="date" name="event_date" value=""/> <br/>
+                <input type="date" name="event_date" value="" id="date"> <br>
                 <button type="button" onclick=submit_event(id)>Submit</button>
                 
-                
+            </fieldset>
+               
             </div>
+        </form>
                  
                 
 
-            </fieldset>
-
+            
+            <!--Submit Event from validation-->
             <script>
                 function submit_event() {
                     var title = document.forms["event"]["event_title"].value;

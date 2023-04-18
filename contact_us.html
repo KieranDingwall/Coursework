@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <!-- Title for page and stylesheet links-->
         <title> The Unoffical RGU Trainers Society </title>
@@ -20,7 +20,7 @@
             <li><a href="event_calendar.html">Events</a> </li>
             <li><a href="img_gallery.html">Images</a> </li>
             <li><a href="shop.html">Shop</a> </li>
-            <li><a href="music.html">Music</a> </li>
+            <li><a href="newreleases.html">New Releases</a> </li>
             </ul>
 
         </nav>
@@ -34,30 +34,32 @@
             <fieldset>
                 <legend>Contact Us Using The Form Below</legend>
                 <label for="name">Name: </label>
-                <input type="text" name="name" value=""/> <br/>
+                <input type="text" name="name" value="" id="name"> <br>
                 <label for="email">Email: </label>
-                <input type="email" name="email" value=""/> <br/>
-                <label for="memberstatus"> Member Status: </label>
+                <input type="email" name="email" value="" id="email"> <br>
+                <label> Member Status: </label>
                 <input type="radio" id="member" name="memberstatus" value="Member">
                 <label for="member"> Member </label>
-                <input type="radio" id="non-member" name="memberstatus" value="Non Member"> 
-                <label for="non-member"> Non Member </label> <br/>
+                <input type="radio" id="non-member" name="member" value="Non Member">  
+                <label for="non-member"> Non Member </label> <br>                
                 <label for="comments">Comments: </label>
-                <input type="text" name="comments" value=""/> <br/>
+                <input type="text" name="comments" value="" id="comments"> <br>
                 <label for="files"> Select A File</label>
-                <input type="file" name="files" value=""/> <br/>
-                <button type="button" 
+                <input type="file" name="file" id="files"><br>
+                <button type="button" id="submitbutton" 
                     onclick=send_form(id)>Submit</button>
-                
+            </fieldset>   
             </div>
+            </form>
                  
                 
 
-            </fieldset>
+            
             <div id="form_outcome"> 
                 <p></p>
             </div>
         </main>
+        <!--Twitter Feed-->
         </div>
         <div class = "right-col">
         <aside> 

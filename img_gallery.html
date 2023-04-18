@@ -1,4 +1,17 @@
-<html>
+<!DOCTYPE html>
+<!--
+Threat Model
+Threat Source: External
+Threat Agent: Human
+Threat Intention: Intentional
+Threat Motivation: Embarrassment of the society
+Threat Impact: Defacement of society website, changing of images with images that 
+don't show the society in a good light.
+Threat Mitigation: Login validation, 2FA in place before images
+can be changed, only certain pre-defined members can change images.
+-->
+
+
     <head>
         <!-- Title for page and stylesheet links-->
         <title> The Unofficial RGU Trainer Society </title>
@@ -19,7 +32,7 @@
             <li><a href="event_calendar.html">Events</a> </li>
             <li class="active"><a href="img_gallery.html">Images</a> </li>
             <li><a href="shop.html">Shop</a> </li>
-            <li><a href="music.html">Music</a> </li>
+            <li><a href="newreleases.html">New Releases</a> </li>
             </ul>
 
         </nav>
@@ -48,6 +61,7 @@
                     <div class="col-sm">
                       <img src="images/tiffanyAF1.jpg" onmouseover = "highlight(this)" onmouseout = "delight(this)" onload="blurs(this)" alt="Ultraboost" class="galleryimg">
                     </div>
+                  </div>
                 <div class="row">
                         <div class="col-sm">
                           <img src="images/jordan4.webp" onmouseover = "highlight(this)" onmouseout = "delight(this)" onload="blurs(this)" alt="Gazelles" class="galleryimg">
@@ -59,6 +73,9 @@
                           <img src="images/airmax97.webp" onmouseover = "highlight(this)" onmouseout = "delight(this)" onload="blurs(this)" alt="Ultraboost" class="galleryimg">
                         </div>
               </div>
+              
+              </div>
+              <!--Functions for borders and blur-->
               <script>
               
               function highlight(x) {

@@ -9,6 +9,7 @@ header{
     border-top-left-radius : 10px;
     border-top-right-radius : 10px;
     padding: 1px;
+    width:100%;
 }
 /* Logo */
 #logo{
@@ -22,18 +23,26 @@ header{
     
 }
 
+/* Main Heading */
+
 h1{
     color:black;
     font-family:Arial;
     font-size:40px;
     
+
+    
 }
 /* Login Form */
 #loginform{
-    float: right;
+    float:right;
+    position:absolute;
+    top: 5px;
+    right: 15px;
     font-size: 16px;
     background-color:rgb(152, 240, 240);
-    padding:3px
+    padding:0px;
+    margin-top: 0px;
     
 }
 /* Headings and p tags */
@@ -73,12 +82,30 @@ main{
     background-color : rgb(152, 240, 240);
     border-radius : 10px;
     margin: 2px;
+    
 }
+
+/* Padding */
+
+main p {
+    padding: 10px;
+}
+
+main h3{
+    padding: 10px;
+}
+
+#newsheading{
+    padding:10px;
+}
+
+
 /* Aside */
 aside{
     background-color : rgb(152, 240, 240);
     border-radius : 10px;
     margin: 2px;
+    
 }
 /* Footer */
 footer{
@@ -88,7 +115,7 @@ footer{
     width:100%;
     margin: 2px;
 }
-/* News Contrast Colours */
+/* News */
 .News{
     background-color:white;
     padding:5px;
@@ -116,21 +143,25 @@ footer{
 /* Nav Bar and Controls */
 nav{
     margin-top: 20px;
+    width: 100%;
 }
 
 nav ul{
     margin:0;
     padding:0;
     overflow:hidden;
+    
 }
 
 nav li{
     border:2px solid white;
-    background-color:darkgrey;
+    background-color:rgb(82, 80, 80);
     list-style-type:none;
     float: left;
     width: 12%;
     padding: 16px;
+    width: 14%
+    
     
 }
 
@@ -139,6 +170,7 @@ nav li a{
     text-align:center;
     text-decoration:none;
     font-family:arial;
+    
     
 }
 nav li:hover{
@@ -150,7 +182,7 @@ li:hover{
 }
 
 nav .active{
-    background-color:gold;
+    background-color:rgb(104, 91, 20);
 }
 
 /* Table CSS */
@@ -184,9 +216,10 @@ table tr:hover{
 }
 
 table th{
-    color:white;
+    color:black;
     background-color:rgb(159, 159, 236);
     border: solid;
+    border-color: white;
     text-align: center;
 }
 
@@ -204,9 +237,16 @@ table th{
 
 /* Twitter Integraded */
 
-#twitter-Timeline{
+.twitter-Timeline{
     margin-right: 5px
 }
+
+.twit .twitter-timeline{
+    width: 50%;
+    padding: 20px;
+}
+
+
 
 /* Image Carousel */
 .d-block{
@@ -225,10 +265,6 @@ table th{
     /*margin-left: 20%;
     margin-right: 60%;*/
     float: left;
-    
-    
-    
-
 }
 
 .carousel-control-next{
@@ -287,11 +323,24 @@ header-input{
     
 }
 
+.filters button{
+    font-size:20px;
+}
+
+.filters button:hover{
+    background-color: gold;
+}
+
 fieldset{
     background-color: rgb(152, 240, 240);
     border-radius: 0%;
 }
 
+/* Youtube Vid CSS */
 
+.yt{
+padding: 20px;
+margin-bottom: 2px;
+}
 
 
